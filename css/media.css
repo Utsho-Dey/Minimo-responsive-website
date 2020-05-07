@@ -1,0 +1,30 @@
+@media (max-width: 992px){
+ .banner-img {
+  min-height: 60vh
+}
+  .newslatter .p {
+    width: 60%;
+ }
+}
+
+@media (max-width: 768px){
+
+ .banner-img {
+  min-height: 48vh;
+}
+}
+@media (max-width: 576px){
+ .banner-img {
+  min-height: 35vh;
+}
+
+ .terms {
+  width: 30%;
+}
+ .terms ul{
+        
+  display:;
+      
+  justify-content:;
+  }
+}

@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Ubuntu&display=swap" rel="stylesheet');
+/* font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header part start */
+.header{
+
+padding: 2% 5%;
+}
+.logo{
+
+width: 30%;
+}
+.header ul{
+
+width: 70%;
+
+display: flex;
+
+justify-content: space-between;
+}
+.header ul li{
+    
+font-size: 14px;
+    
+color: #626262;
+    
+text-transform: uppercase;
+    
+font-family: 'Playfair Display', serif;
+    
+font-weight: 600;
+}
+
+
+
+
+/* header part end */
+
+
+
+
+/* banner part start */
+
+.banner{
+ 
+}
+.banner-img{
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+    margin: 0% 5%;
+}
+.banner-img img{
+
+}
+
+
+
+
+
+ /* banner part end */
+
+
+
+ /* photodiary part start */
+
+
+.photodiary{
+
+}
+.photodiary h6{
+    
+color: #b4ad9e;
+    
+font-size: 14px;
+    
+text-transform: uppercase;
+    
+padding: 8px 0px;
+    
+font-family: 'Ubuntu', sans-serif;
+}
+.photodiary h1{color: #626262;font-size: 30px;padding: 8px 0px;font-weight: 500;font-family: 'Playfair Display', serif;}
+.photodiary p{
+    
+font-family: 'Playfair Display', serif;
+    
+color: #626262;
+    
+font-size: 16px;
+}
+.photodiary img{
+    
+width: 100%;
+}
+
+
+
+ /* photodiary part end */
+
+
+/* newslatter part start */
+
+
+.newslatter{
+
+background: #f0f0f0;
+
+text-align: center;
+
+height: 300px;
+
+margin-top: 48px;
+}
+.hg{
+    height: 100%;
+}
+.newslatter h1{
+    
+padding-bottom: 48px;
+    
+color: #333333;
+    
+font-size: 40px;
+    
+font-weight: 600;
+    
+font-family: 'Playfair Display', serif;
+}
+.newslatter ul{
+    
+display: flex;
+    
+justify-content: space-evenly;
+    
+list-style: none;
+    
+margin: 0px 25px;
+    
+height: 32px;
+}
+.newslatter .p{
+    
+width: 50%;
+    
+text-align: left;
+    
+font-family: 'Playfair Display', serif;
+    
+color: #626262;
+    
+font-size: 15px;
+    
+font-weight: 500;
+}
+.newslatter .icon{
+    
+width: 50%;
+    
+text-align: right;
+}
+.newslatter p{
+    
+}
+.newslatter span{
+    
+display: block;
+    
+border-top: 1px solid black;
+    
+margin: 0px 25px;
+}
+
+
+
+ /* newslatter part end */
+
+
+ /* button part start */
+.button{
+
+text-align: center;
+
+margin: 100px 0px;
+}
+.button .col-md-12{
+    
+}
+.btn{
+
+border: 1px solid #626262;
+
+background: none;
+
+color: #626262;
+
+text-transform: capitalize;
+
+font-family: 'Playfair Display', serif;
+
+font-size: 18px;
+
+padding: 12px;
+}
+
+.btn:hover{
+    border: 1px solid #626262;
+    background: #626262;
+    color: #fff;
+}
+
+
+/*  button part end */
+
+/* footer part start */
+
+footer{
+
+background: #f0f0f0;
+
+padding: 32px 0;
+
+}
+    .footer-content{
+    
+    width: 90%;
+    
+    display: flex;
+    
+    justify-content: space-between;
+    
+    margin: auto;
+    }
+    .terms{  
+    width: 17%;
+    }
+    .terms ul{
+        
+    display: flex;
+        
+    justify-content: space-between;
+    }
+    .terms ul li{
+        
+    list-style: none;
+    }
+    .terms ul li a{
+    
+    text-decoration: none;
+    }
+    .icon{
+    
+    width: 24%;
+    }
+    .icon ul{
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+    }
+    .icon ul li{
+    
+    }
+    .icon ul li a{
+    
+    text-decoration: none;
+    }
+/* footer part end */
